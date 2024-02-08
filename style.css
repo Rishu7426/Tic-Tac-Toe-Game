@@ -80,7 +80,9 @@ h1{
     flex-direction: column;
     gap: 4rem;
   }
-
+.new{
+  display: contents;
+}
   .hide{
     display: none;
   }
