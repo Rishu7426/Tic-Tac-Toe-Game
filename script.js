@@ -26,19 +26,23 @@ const resetGame = () => {
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
     count++;
-    if (turn0) {
+    if (turn0) { 
       box.innerText = "O";
+      box.style.color=" red";
       turn0 = false;
     } else {
       box.innerText = "X";
+      box.style.color=" blue";
       turn0 = true;
     }
+    
+    box.disabled = true;
+    checkWinners();
     if (count == 9) {
       msg.innerText = `Match Draw, winner is none `;
       msgContainer.classList.remove("hide");
+      count=0;
     }
-    box.disabled = true;
-    checkWinners();
   });
 });
 
@@ -68,6 +72,7 @@ const checkWinners = () => {
       if (pos1val === pos2val && pos2val === pos3val) {
         disableBoxes();
         showWinner(pos1val);
+        count=0;
       }
     }
   }
