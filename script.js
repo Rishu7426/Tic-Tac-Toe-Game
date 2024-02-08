@@ -4,7 +4,6 @@ let turn0 = true; //playerX, playerO
 let newGameBtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector(".msg");
-let btns= document.querySelector(".new");
 let count = 0;
 
 const winPatterns = [
@@ -37,7 +36,6 @@ boxes.forEach((box) => {
     if (count == 9) {
       msg.innerText = `Match Draw, winner is none `;
       msgContainer.classList.remove("hide");
-      btns.classList.add("hide");
     }
     box.disabled = true;
     checkWinners();
