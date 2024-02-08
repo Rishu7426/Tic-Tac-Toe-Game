@@ -28,7 +28,7 @@ boxes.forEach((box) => {
     count++;
     if (turn0) { 
       box.innerText = "O";
-      box.style.color=" red";
+      box.style.color=" yellow";
       turn0 = false;
     } else {
       box.innerText = "X";
