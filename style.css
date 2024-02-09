@@ -5,11 +5,12 @@
   scroll-behavior: smooth;
   transition: all .3s ease-in-out;
   /* background-color: #92988f; */
-  text-align: center;
+ 
 }
 
 body{
   background-image: linear-gradient(35deg, cyan, rgba(255, 255, 0, 0.527), rgba(255, 0, 0, 0.537), rgb(0, 0, 255));
+ text-align: center;
 }
 h1{
   margin-top: 20px;
