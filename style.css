@@ -2,10 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   text-align: center;
-    background-image: linear-gradient(35deg, cyan, rgba(255, 255, 0, 0.527), rgba(255, 0, 0, 0.537), rgb(0, 0, 255));
+  scroll-behavior: smooth;
+  transition: all .3s ease-in-out;
+  /* background-color: #92988f; */
+  text-align: center;
 }
 
+body{
+  background-image: linear-gradient(35deg, cyan, rgba(255, 255, 0, 0.527), rgba(255, 0, 0, 0.537), rgb(0, 0, 255));
+}
 h1{
   margin-top: 20px;
 }
@@ -14,7 +19,6 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .game {
@@ -28,6 +32,7 @@ h1{
   align-items: center;
   gap: 1.5vmin;
   border: none;
+  /* background-color: chocolate; */
   box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
@@ -42,8 +47,11 @@ h1{
   font-weight: 800;
   color: rgb(43, 0, 255);
   background-image: linear-gradient(35deg, cyan, grey, rgba(255, 0, 0, 0.675));
+  /* text-shadow: 0px 0px 5px rgb(0, 0, 255); */
 }
 .reset-btn {
+  /* height: 6vmin;
+  width: 20vmin; */
   padding: 7px;
   max-width: auto;
   max-height: auto;
@@ -54,6 +62,8 @@ h1{
   text-shadow: 0px 0px 5px rgb(128, 255, 0);
 }
 #new-btn{
+    /* height: 6vmin;
+    width: 20vmin; */
     padding: 7px;
     max-width: auto;
     max-height: auto;
@@ -85,5 +95,5 @@ h1{
     display: none;
   }
   #footer{
-    margin-bottom: 0%;
+        margin-top: 55px;
   }
