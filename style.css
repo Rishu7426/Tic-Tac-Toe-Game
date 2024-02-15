@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
    text-align: center;
+    background-image: linear-gradient(35deg, cyan, rgba(255, 255, 0, 0.527), rgba(255, 0, 0, 0.537), rgb(0, 0, 255));
 }
 
 h1{
@@ -13,7 +14,7 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(35deg, cyan, rgba(255, 255, 0, 0.527), rgba(255, 0, 0, 0.537), rgb(0, 0, 255));
+
 }
 
 .game {
