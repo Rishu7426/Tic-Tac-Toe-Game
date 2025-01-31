@@ -11,7 +11,7 @@ style.innerHTML = `
 }
 
 body {
-  background-image: linear-gradient(35deg, cyan, rgba(255, 255, 0, 0.527), rgba(255, 0, 0, 0.537), rgb(0, 0, 255));
+  background-image: linear-gradient(to right top, #062452, #0a1f4e, #0d1a49, #101545, #130f40);
   height: 100%;
   min-height: 100vh;
 }
