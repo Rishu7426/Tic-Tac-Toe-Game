@@ -8,6 +8,7 @@ style.innerHTML = `
   scroll-behavior: smooth;
   transition: all .3s ease-in-out;
   text-align: center;
+  color:white;
 }
 
 body {
