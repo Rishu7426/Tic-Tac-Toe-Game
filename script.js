@@ -48,7 +48,8 @@ h1 {
   background-color: cyan;
   border-radius: 1rem;
   border: none;
-  box-shadow: 0px 0px 300px rgb(255, 255, 255,.5);
+  background: radial-gradient(210.81% 217.96% at -15.47% 91.8%, rgba(196,196,196,0.2)0%, rgba(255,255,255,.2)100% );
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.25);
   font-size: 2.5rem;
   font-weight: 800;
   color: rgb(43, 0, 255);
