@@ -46,14 +46,13 @@ h1 {
   height: 18vmin;
   width: 18vmin;
   background-color: yellow;
-  box-shadow:inset 0px 0px 35px rgba(255,0,0,.5);
-    border-radius: 50%;
+  box-shadow:inset 0px 0px 35px rgba(0,0,255,0);
   border: none;
   background: radial-gradient(210.81% 217.96% at -15.47% 91.8%, rgba(196,196,196,0.2)0%, rgba(255,255,255,.2)100% );
   font-size: 2.5rem;
   font-weight: 800;
   color: rgb(43, 0, 255);
-  background-image: linear-gradient(35deg, #525252, grey, rgb(00, 0, 0));
+  background-image: linear-gradient(35deg, cyan, grey, rgb(200, 180, 50));
 }
 
 .reset-btn {
