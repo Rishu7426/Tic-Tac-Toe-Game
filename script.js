@@ -39,7 +39,7 @@ h1 {
   align-items: center;
   gap: 1.5vmin;
   border: none;
-  box-shadow:inset 0px 0px 50000px rgba(235, 233, 224,.5);
+  box-shadow:inset 0px 0px 50000px rgba(0, 0, 0,.5);
 }
 
 .box {
@@ -48,7 +48,7 @@ h1 {
   background-color: cyan;
   border-radius: 1rem;
   border: none;
-  box-shadow: 0px 0px 3px rgb(255, 6, 6), 3px 3px 3px rgb(0, 0, 0);
+  box-shadow: 0px 0px 300px rgb(255, 255, 255,.5);
   font-size: 2.5rem;
   font-weight: 800;
   color: rgb(43, 0, 255);
