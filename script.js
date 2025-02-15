@@ -46,7 +46,7 @@ h1 {
   height: 18vmin;
   width: 18vmin;
   background-color: yellow;
-  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+  box-shadow:inset 0px 0px 100px rgba(0,0,0,.5);
     border-radius: 50%;
   border: none;
   background: radial-gradient(210.81% 217.96% at -15.47% 91.8%, rgba(196,196,196,0.2)0%, rgba(255,255,255,.2)100% );
