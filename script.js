@@ -39,7 +39,7 @@ h1 {
   align-items: center;
   gap: 1.5vmin;
   border: none;
-  box-shadow:inset 0px 0px 300px #34baeb;
+  box-shadow:inset 0px 0px 500px yellow;
 }
 
 .box {
