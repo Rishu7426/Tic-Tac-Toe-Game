@@ -39,13 +39,13 @@ h1 {
   align-items: center;
   gap: 1.5vmin;
   border: none;
-  box-shadow:inset 0px 0px 50000px rgba(0, 0, 0,.5);
+  box-shadow:inset 0px 0px 50000px rgb(0, 0, 0);
 }
 
 .box {
   height: 18vmin;
   width: 18vmin;
-  background-color: cyan;
+  background-color: yellow;
   border-radius: 1rem;
   border: none;
   background: radial-gradient(210.81% 217.96% at -15.47% 91.8%, rgba(196,196,196,0.2)0%, rgba(255,255,255,.2)100% );
