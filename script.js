@@ -59,7 +59,7 @@ h1 {
   padding: 7px;
   max-width: auto;
   max-height: auto;
-  background-color: blue;
+  background-color: #525252;
   color: white;
   border-radius: 1rem;
   font-size: 1.2rem;
