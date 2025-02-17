@@ -39,6 +39,7 @@ h1 {
   align-items: center;
   gap: 1.5vmin;
   border: none;
+  background-color: transparent;
   box-shadow: 0px 0px 50px rgba(255, 255, 255,0.5);
 }
 
