@@ -40,7 +40,7 @@ h1 {
   gap: 1.5vmin;
   border: 1px solid orange;
   background-color: #e0f7ff;
-  box-shadow:inset 0px 0px 40px rgba(0,0,0,.5);
+  box-shadow:inset 0px 0px 30px rgba(0,0,0,.3);
 }
 
 .box {
@@ -53,7 +53,7 @@ h1 {
   background:rgba(255,255,255,.07); /* Gradient for depth */
   border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-  animation: drop 1s infinite;
+  animation: drop 4s infinite;
 }
 /* Animation for the droplet */
 @keyframes drop {
