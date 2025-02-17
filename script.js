@@ -40,7 +40,7 @@ h1 {
   gap: 1.5vmin;
   border: none;
   background-color: transparent;
-  box-shadow: 0px 0px 50px rgb(0, 0, 0);
+  box-shadow: 0px 0px 100px rgb(0, 0, 0);
 }
 
 .box {
@@ -141,7 +141,7 @@ boxes.forEach((box) => {
       turn0 = false;
     } else {
       box.innerText = "X";
-      box.style.color = "blue";
+      box.style.color = "red";
       turn0 = true;
     }
 
