@@ -46,14 +46,23 @@ h1 {
 .box {
   height: 18vmin;
   width: 18vmin;
- background: radial-gradient(210.81% 217.96% at -15.47% 91.8%, rgba(196,196,196,0.2)0%, rgba(255,255,255,.25)100% );
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(20px);
-    border-radius: 10px;
-    border:none;
+  border:none;
   font-size: 2.5rem;
   font-weight: 800;
   color: rgb(43, 0, 255);
+  background: linear-gradient(to bottom, #00bcd4, #0097a7); /* Gradient for depth */
+  border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  animation: drop 1s infinite; /* Animation for a subtle bounce effect */
+}
+/* Animation for the droplet */
+@keyframes drop {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Slight upward movement */
+  }
 }
 
 .reset-btn {
