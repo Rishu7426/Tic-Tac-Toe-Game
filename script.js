@@ -40,7 +40,7 @@ h1 {
   gap: 1.5vmin;
   border: none;
   background-color: transparent;
-  box-shadow: 0px 0px 100px rgb(0, 0, 0, .15);
+  box-shadow: 0px 0px 100px rgb(255, 0, 255, .15);
 }
 
 .box {
