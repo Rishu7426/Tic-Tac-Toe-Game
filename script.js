@@ -39,7 +39,7 @@ h1 {
   align-items: center;
   gap: 1.5vmin;
   border: 1px solid orange;
-  background-color: rgba(0,0,0,.5);
+  background-color: #e0f7fa;
   box-shadow:inset 0px 0px 40px rgba(0,255,255,.5);
 }
 
@@ -50,7 +50,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 800;
   color: rgb(43, 0, 255);
-  background: linear-gradient(to bottom, #00bcd4, #0097a7); /* Gradient for depth */
+  background:rgba(255,255,255,.07); /* Gradient for depth */
   border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
   animation: drop 1s infinite; /* Animation for a subtle bounce effect */
