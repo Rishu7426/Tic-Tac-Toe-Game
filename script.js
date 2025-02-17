@@ -142,7 +142,7 @@ boxes.forEach((box) => {
       turn0 = false;
     } else {
       box.innerText = "X";
-      box.style.color = "red";
+      box.style.color = "white";
       turn0 = true;
     }
 
