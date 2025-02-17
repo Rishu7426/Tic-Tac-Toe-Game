@@ -50,6 +50,7 @@ h1 {
     box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(20px);
     border-radius: 10px;
+    border:none;
   font-size: 2.5rem;
   font-weight: 800;
   color: rgb(43, 0, 255);
