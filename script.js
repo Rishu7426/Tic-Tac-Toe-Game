@@ -40,7 +40,7 @@ h1 {
   gap: 1.7vmin;
   border: 2px solid orange;
   background-color: #e0f7ff;
-  box-shadow:inset 0px 0px 1000px rgba(0,0,255,.2);
+  box-shadow:inset 0px 0px 1000px rgba(255,0,255,.17);
 }
 
 .box {
@@ -146,7 +146,7 @@ boxes.forEach((box) => {
     count++;
     if (turn0) {
       box.innerText = "O";
-      box.style.color = "#ADFF2F";
+      box.style.color = "lightgrey";
       turn0 = false;
     } else {
       box.innerText = "X";
