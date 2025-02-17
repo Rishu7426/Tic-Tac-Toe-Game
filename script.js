@@ -29,7 +29,7 @@ h1 {
 }
 
 .game {
-  padding: 8px;
+  padding: 10px;
   border-radius: 1rem;
   height: 65vmin;
   width: 65vmin;
@@ -37,10 +37,10 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.5vmin;
-  border: 1px solid orange;
+  gap: 1.7vmin;
+  border: 2px solid orange;
   background-color: #e0f7ff;
-  box-shadow:inset 0px 0px 30px rgba(0,0,0,.3);
+  box-shadow:inset 0px 0px 1000px rgba(0,0,255,.3);
 }
 
 .box {
@@ -53,7 +53,7 @@ h1 {
   background:rgba(255,255,255,.07); /* Gradient for depth */
   border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-  animation: drop 4s infinite;
+  animation: drop 6s infinite;
 }
 /* Animation for the droplet */
 @keyframes drop {
@@ -146,11 +146,11 @@ boxes.forEach((box) => {
     count++;
     if (turn0) {
       box.innerText = "O";
-      box.style.color = "red";
+      box.style.color = "#ADFF2F";
       turn0 = false;
     } else {
       box.innerText = "X";
-      box.style.color = "blue";
+      box.style.color = "#FF6347";
       turn0 = true;
     }
 
