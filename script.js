@@ -39,7 +39,7 @@ h1 {
   align-items: center;
   gap: 1.5vmin;
   border: 1px solid orange;
-  background-color: rgba(255,0,0,.1);
+  background-color: rgba(0,0,0,.5);
   box-shadow:inset 0px 0px 100px rgba(255,0,255,.5);
 }
 
