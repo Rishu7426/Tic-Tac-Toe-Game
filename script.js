@@ -40,14 +40,14 @@ h1 {
   gap: 1.5vmin;
   border: 1px solid orange;
   background-color: rgba(0,0,0,.5);
-  box-shadow:inset 0px 0px 40px rgba(0,0,190,.3);
+  box-shadow:inset 0px 0px 40px rgba(0,255,255,.5);
 }
 
 .box {
   height: 18vmin;
   width: 18vmin;
  background: radial-gradient(210.81% 217.96% at -15.47% 91.8%, rgba(196,196,196,0.2)0%, rgba(255,255,255,.25)100% );
-    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.35);
     backdrop-filter: blur(20px);
     border-radius: 10px;
     border:none;
