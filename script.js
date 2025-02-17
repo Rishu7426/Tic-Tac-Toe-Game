@@ -40,7 +40,7 @@ h1 {
   gap: 1.5vmin;
   border: 1px solid orange;
   background-color: #e0f7ff;
-  box-shadow:inset 0px 0px 40px rgba(0,0,0,.2);
+  box-shadow:inset 0px 0px 40px rgba(0,0,0,.5);
 }
 
 .box {
