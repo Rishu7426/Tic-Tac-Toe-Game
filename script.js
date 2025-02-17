@@ -40,7 +40,7 @@ h1 {
   gap: 1.5vmin;
   border: none;
   background-color: transparent;
-  box-shadow: 0px 0px 100px rgb(255, 0, 255, .15);
+  box-shadow: 0px 0px 100px rgb(255, 0, 255, .25);
 }
 
 .box {
@@ -49,7 +49,7 @@ h1 {
  background: radial-gradient(210.81% 217.96% at -15.47% 91.8%, rgba(106,196,106,0.2)10%, rgba(255,255,255,.2)100% );
     box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(20px);
-    border-radius: 10px;
+    border-radius: 50%;
     border:none;
   font-size: 2.5rem;
   font-weight: 800;
