@@ -40,7 +40,7 @@ h1 {
   gap: 1.5vmin;
   border: 1px solid orange;
   background-color: #e0f7fa;
-  box-shadow:inset 0px 0px 40px rgba(0,255,255,.5);
+  box-shadow:inset 0px 0px 40px rgba(0,0,0,.2);
 }
 
 .box {
@@ -53,16 +53,6 @@ h1 {
   background:rgba(255,255,255,.07); /* Gradient for depth */
   border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-  animation: drop 1s infinite; /* Animation for a subtle bounce effect */
-}
-/* Animation for the droplet */
-@keyframes drop {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px); /* Slight upward movement */
-  }
 }
 
 .reset-btn {
@@ -147,11 +137,11 @@ boxes.forEach((box) => {
     count++;
     if (turn0) {
       box.innerText = "O";
-      box.style.color = "yellow";
+      box.style.color = "red";
       turn0 = false;
     } else {
       box.innerText = "X";
-      box.style.color = "white";
+      box.style.color = "blue";
       turn0 = true;
     }
 
