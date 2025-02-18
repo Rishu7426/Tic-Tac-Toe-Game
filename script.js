@@ -62,11 +62,11 @@ h1 {
 @keyframes drop {
   0%, 100% {
     transform: translateY(0);
-    transform: scale(1);
+    transform: scale(0);
   }
   50% {
     transform: translateY(.1px); /* Slight upward movement */
-    transform: scale(1.1);
+    transform: scale(0.1);
   }
 }
 .reset-btn {
