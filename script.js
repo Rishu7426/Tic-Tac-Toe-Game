@@ -150,7 +150,7 @@ boxes.forEach((box) => {
       turn0 = false;
     } else {
       box.innerText = "X";
-      box.style.color = "#808080";
+      box.style.color = "#525252";
       turn0 = true;
     }
 
