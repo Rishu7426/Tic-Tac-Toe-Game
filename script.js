@@ -51,8 +51,10 @@ h1 {
   font-weight: 800;
   color: rgb(43, 0, 255);
   background:rgba(255,255,255,.07); /* Gradient for depth */
+  
   border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.23); /* Shadow for depth */
+  backdrop-filter: blur(30px);
   animation: drop 10s infinite;
 }
 /* Animation for the droplet */
@@ -150,7 +152,7 @@ boxes.forEach((box) => {
       turn0 = false;
     } else {
       box.innerText = "X";
-      box.style.color = "#525252";
+      box.style.color = "#500000";
       turn0 = true;
     }
 
