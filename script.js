@@ -61,10 +61,10 @@ h1 {
 /* Animation for the droplet */
 @keyframes drop {
   0%, 100% {
-    transform: translateY(5);
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(-7px); /* Slight upward movement */
+    transform: translateY(-2px); /* Slight upward movement */
   }
 }
 .reset-btn {
