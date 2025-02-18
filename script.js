@@ -53,7 +53,7 @@ h1 {
   color: rgb(43, 0, 255);
   background:rgba(255,255,255,.8); /* Gradient for depth */
   
-  border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
+  border-radius: 10px; 
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15), inset 0px 0px 15px rgba(0,0,0,.3); /* Shadow for depth */
   backdrop-filter: blur(70px);
   animation: drop 8s infinite;
