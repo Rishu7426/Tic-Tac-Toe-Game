@@ -8,12 +8,13 @@ style.innerHTML = `
   scroll-behavior: smooth;
   transition: all .3s ease-in-out;
   text-align: center;
-  color:yellow;
+  color:blue;
 }
 
 body {
-  background-image: linear-gradient(to right top, #062452, #0a1f4e, #0d1a49, #101545, #130f40);
+  //background-image: linear-gradient(to right top, #062452, #0a1f4e, #0d1a49, #101545, #130f40);
   height: 100%;
+  background-color: #e0f7ff;
   min-height: 100vh;
 }
 
