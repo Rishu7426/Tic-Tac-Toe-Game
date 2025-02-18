@@ -40,7 +40,7 @@ h1 {
   gap: 1.7vmin;
   border: 2px solid orange;
   background-color: #e0f7ff;
-  box-shadow:inset 0px 0px 1000px rgba(255,0,255,.17);
+  box-shadow:inset 0px 0px 1000px rgba(255,0,255,.2);
 }
 
 .box {
@@ -52,8 +52,8 @@ h1 {
   color: rgb(43, 0, 255);
   background:rgba(255,255,255,.07); /* Gradient for depth */
   border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-  animation: drop 6s infinite;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.23); /* Shadow for depth */
+  animation: drop 10s infinite;
 }
 /* Animation for the droplet */
 @keyframes drop {
@@ -146,11 +146,11 @@ boxes.forEach((box) => {
     count++;
     if (turn0) {
       box.innerText = "O";
-      box.style.color = "lightgrey";
+      box.style.color = "grey";
       turn0 = false;
     } else {
       box.innerText = "X";
-      box.style.color = "#FF6347";
+      box.style.color = "#808080";
       turn0 = true;
     }
 
