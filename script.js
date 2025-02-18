@@ -41,7 +41,7 @@ h1 {
   gap: 1.7vmin;
   border: none;
   background-color: white;
-  box-shadow:inset 0px 0px 10px rgba(0,0,0,.2);
+  box-shadow:inset 0px 0px 5px rgba(0,0,0,.8);
 }
 
 .box {
@@ -53,18 +53,18 @@ h1 {
   color: rgb(43, 0, 255);
   background:rgba(255,255,255,.8); /* Gradient for depth */
   
-  border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
+  border-radius: 50% 50% 40% 30%; /* Rounded top and slightly pointed bottom */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15), inset 0px 0px 15px rgba(0,0,0,.3); /* Shadow for depth */
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(70px);
   animation: drop 8s infinite;
 }
 /* Animation for the droplet */
 @keyframes drop {
   0%, 100% {
-    transform: translateY(0);
+    transform: translateY(5);
   }
   50% {
-    transform: translateY(-10px); /* Slight upward movement */
+    transform: translateY(-7px); /* Slight upward movement */
   }
 }
 .reset-btn {
