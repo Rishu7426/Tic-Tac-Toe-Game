@@ -39,9 +39,9 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 1.7vmin;
-  border: 2px solid orange;
+  border: none;
   background-color: #e0f7ff;
-  box-shadow:inset 0px 0px 1000px rgba(255,0,255,.5);
+  box-shadow:inset 0px 0px 10px rgba(0,0,0,.2);
 }
 
 .box {
