@@ -54,7 +54,7 @@ h1 {
   background:rgba(255,255,255,.07); /* Gradient for depth */
   
   border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.23), inset 0px 0px 5px rgba(0,0,0,.15); /* Shadow for depth */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.23), inset 0px 0px 8px rgba(0,0,0,.15); /* Shadow for depth */
   backdrop-filter: blur(30px);
   animation: drop 8s infinite;
 }
