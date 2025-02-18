@@ -40,7 +40,7 @@ h1 {
   gap: 1.7vmin;
   border: 2px solid orange;
   background-color: #e0f7ff;
-  box-shadow:inset 0px 0px 1000px rgba(255,0,255,.2);
+  box-shadow:inset 0px 0px 1000px rgba(255,0,255,.5);
 }
 
 .box {
@@ -55,7 +55,7 @@ h1 {
   border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.23); /* Shadow for depth */
   backdrop-filter: blur(30px);
-  animation: drop 10s infinite;
+  animation: drop 8s infinite;
 }
 /* Animation for the droplet */
 @keyframes drop {
@@ -152,7 +152,7 @@ boxes.forEach((box) => {
       turn0 = false;
     } else {
       box.innerText = "X";
-      box.style.color = "#500000";
+      box.style.color = "green";
       turn0 = true;
     }
 
