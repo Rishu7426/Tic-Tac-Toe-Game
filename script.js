@@ -40,7 +40,7 @@ h1 {
   align-items: center;
   gap: 1.7vmin;
   border: none;
-  background-color: #e0f7ff;
+  background-color: white;
   box-shadow:inset 0px 0px 10px rgba(0,0,0,.2);
 }
 
