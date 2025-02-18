@@ -149,11 +149,11 @@ boxes.forEach((box) => {
     count++;
     if (turn0) {
       box.innerText = "O";
-      box.style.color = "grey";
+      box.style.color = "orange";
       turn0 = false;
     } else {
       box.innerText = "X";
-      box.style.color = "green";
+      box.style.color = "blue";
       turn0 = true;
     }
 
