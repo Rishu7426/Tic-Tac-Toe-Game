@@ -56,7 +56,7 @@ h1 {
   border-radius: 10px; 
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15), inset 0px 0px 15px rgba(0,0,0,.3); /* Shadow for depth */
   backdrop-filter: blur(70px);
-  animation: drop 1s infinite;
+  animation: drop .1s infinite;
 }
 /* Animation for the droplet */
 @keyframes drop {
@@ -64,7 +64,7 @@ h1 {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-2px); /* Slight upward movement */
+    transform: translateY(-1px); /* Slight upward movement */
   }
 }
 .reset-btn {
