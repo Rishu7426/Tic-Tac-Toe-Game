@@ -51,7 +51,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 800;
   color: rgb(43, 0, 255);
-  background:rgba(255,255,255,.2); /* Gradient for depth */
+  background:rgba(255,255,255,.8); /* Gradient for depth */
   
   border-radius: 50% 50% 40% 40%; /* Rounded top and slightly pointed bottom */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.23), inset 0px 0px 15px rgba(0,0,0,.15); /* Shadow for depth */
