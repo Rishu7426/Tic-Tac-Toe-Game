@@ -41,7 +41,7 @@ h1 {
   gap: 1.7vmin;
   border: none;
   background-color: white;
-  box-shadow:inset 0px 0px 5px rgba(0,0,0,.8);
+  box-shadow:inset 0px 0px 10px rgba(0,0,0,.7);
 }
 
 .box {
